@@ -3,16 +3,20 @@
   <metadata>
     <id>Sdl.NET</id>
     <version>1.0.0</version>
-    <title>$title$</title>
-    <authors>$author$</authors>
-    <owners>$author$</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <title>SDL 1.2 wrapper for .NET</title>
+    <authors>Doug Blank, Stefan Ekman, Pikablu, David Hudson, Gabor Szabo</authors>
+    <owners>Doug Blank, Stefan Ekman, Pikablu, David Hudson, Gabor Szabo</owners>
+    <licenseUrl>https://github.com/AlteredCarrot71/Sdl.NET/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/AlteredCarrot71/Sdl.NET</projectUrl>
+    <iconUrl>https://github.com/AlteredCarrot71/Sdl.NET/blob/master/Sdl.NET/External/sdldotnet_64x64.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <description>Sdl.NET is a set of object-oriented CLS-compliant .NET bindings for the SDL gaming library and provides high-level access to audio, keyboard, mouse, joystick, TrueType fonts, various image formats, sound mixing, MPEG-1 movies, and 2D video framebuffer.</description>
+    <releaseNotes>First version</releaseNotes>
     <copyright>Copyright 2019</copyright>
-    <tags>Tag1 Tag2</tags>
+    <tags>C# SDL</tags>
   </metadata>
+  <files>
+    <file src="lib\native\*.*" target="lib\native" />
+	<file src="lib\net20\*.*" target="lib\net20" />
+  </files>
 </package>
