@@ -21,7 +21,7 @@
 using System.Diagnostics.CodeAnalysis;
 
 using SdlDotNet.Core;
-using Tao.Sdl;
+//using Tao.Sdl;
 
 namespace SdlDotNet.Input
 {

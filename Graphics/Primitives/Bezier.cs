@@ -24,7 +24,7 @@ using System.Drawing;
 using System.Globalization;
 
 using SdlDotNet.Core;
-using Tao.Sdl;
+//using Tao.Sdl;
 
 namespace SdlDotNet.Graphics.Primitives
 {

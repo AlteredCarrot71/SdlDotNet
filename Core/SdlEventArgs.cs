@@ -22,7 +22,7 @@ using System;
 
 using SdlDotNet.Graphics;
 using SdlDotNet.Input;
-using Tao.Sdl;
+//using Tao.Sdl;
 
 namespace SdlDotNet.Core
 {

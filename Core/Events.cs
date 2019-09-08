@@ -26,7 +26,7 @@ using System.Resources;
 using SdlDotNet.Input;
 using SdlDotNet.Audio;
 using SdlDotNet.Graphics;
-using Tao.Sdl;
+//using Tao.Sdl;
 
 namespace SdlDotNet.Core
 {

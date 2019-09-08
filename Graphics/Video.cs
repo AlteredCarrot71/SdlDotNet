@@ -26,7 +26,7 @@ using System.Diagnostics.CodeAnalysis;
 
 using SdlDotNet.Input;
 using SdlDotNet.Core;
-using Tao.Sdl;
+//using Tao.Sdl;
 
 namespace SdlDotNet.Graphics
 {

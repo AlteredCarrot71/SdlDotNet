@@ -21,7 +21,7 @@
 using System;
 using System.Diagnostics.CodeAnalysis;
 
-using Tao.Sdl;
+//using Tao.Sdl;
 using SdlDotNet.Core;
 using SdlDotNet.Graphics;
 

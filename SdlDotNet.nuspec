@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>SdlDotNet</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <title>SDL 1.2 wrapper for .NET</title>
     <authors>Doug Blank, Stefan Ekman, Pikablu, David Hudson, Gabor Szabo</authors>
     <owners>Doug Blank, Stefan Ekman, Pikablu, David Hudson, Gabor Szabo</owners>
@@ -11,12 +11,11 @@
     <iconUrl>https://github.com/AlteredCarrot71/Sdl.NET/blob/master/Sdl.NET/External/sdldotnet_64x64.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Sdl.NET is a set of object-oriented CLS-compliant .NET bindings for the SDL gaming library and provides high-level access to audio, keyboard, mouse, joystick, TrueType fonts, various image formats, sound mixing, MPEG-1 movies, and 2D video framebuffer.</description>
-    <releaseNotes>First version</releaseNotes>
+    <releaseNotes>Updated version for .NET 4 framework</releaseNotes>
     <copyright>Copyright 2019</copyright>
     <tags>C# SDL</tags>
     <references>
       <reference file="SdlDotNet.dll" />
-      <reference file="Tao.Sdl.dll" />
     </references>
   </metadata>
   <files>
@@ -36,8 +35,5 @@
     <file src="build\SDL_ttf.dll" target="build" />
     <file src="build\smpeg.dll" target="build" />
     <file src="build\zlib1.dll" target="build" />
-    <file src="lib\net20\Tao.Sdl.dll" target="lib\net20" />
-    <file src="lib\net20\Tao.Sdl.xml" target="lib\net20" />
-    <file src="lib\net20\Tao.Sdl.dll.config" target="lib\net20" />
   </files>
 </package>

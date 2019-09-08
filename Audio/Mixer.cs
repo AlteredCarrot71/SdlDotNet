@@ -25,7 +25,7 @@ using System.Runtime.InteropServices;
 
 using SdlDotNet.Graphics;
 using SdlDotNet.Core;
-using Tao.Sdl;
+//using Tao.Sdl;
 
 namespace SdlDotNet.Audio
 {

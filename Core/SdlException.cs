@@ -22,7 +22,7 @@ using System;
 using System.Runtime.Serialization;
 
 using SdlDotNet.Graphics;
-using Tao.Sdl;
+//using Tao.Sdl;
 
 namespace SdlDotNet.Core
 {

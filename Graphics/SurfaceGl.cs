@@ -25,7 +25,7 @@ using System.Drawing;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.InteropServices;
 
-using Tao.Sdl;
+//using Tao.Sdl;
 
 namespace SdlDotNet.Graphics
 {

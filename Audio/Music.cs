@@ -22,7 +22,7 @@
 using System;
 
 using SdlDotNet.Core;
-using Tao.Sdl;
+//using Tao.Sdl;
 
 namespace SdlDotNet.Audio
 {

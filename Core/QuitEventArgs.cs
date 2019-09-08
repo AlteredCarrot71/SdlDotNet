@@ -18,7 +18,7 @@
  */
 #endregion LICENSE
 
-using Tao.Sdl;
+//using Tao.Sdl;
 
 namespace SdlDotNet.Core
 {

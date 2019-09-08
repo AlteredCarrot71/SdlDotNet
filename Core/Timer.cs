@@ -20,7 +20,7 @@
 
 using System;
 
-using Tao.Sdl;
+//using Tao.Sdl;
 
 namespace SdlDotNet.Core
 {

@@ -29,7 +29,7 @@ using System.Diagnostics.CodeAnalysis;
 
 using SdlDotNet.Core;
 using SdlDotNet.Graphics.Sprites;
-using Tao.Sdl;
+//using Tao.Sdl;
 
 namespace SdlDotNet.Graphics
 {

@@ -24,14 +24,14 @@
     </StartupObject>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>2.0</OldToolsVersion>
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <BaseAddress>285212672</BaseAddress>
     <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
     <ConfigurationOverrideFile>
@@ -83,10 +83,6 @@
       <Name>System.Drawing</Name>
       <HintPath>\System.Drawing.dll</HintPath>
     </Reference>
-    <Reference Include="Tao.Sdl">
-      <HintPath>lib\net20\Tao.Sdl.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Windows\SurfaceControl.resx">
@@ -113,6 +109,13 @@
     <Compile Include="Particles\ParticleRectangle.cs" />
     <Compile Include="Particles\ParticleSprite.cs" />
     <Compile Include="Particles\ParticleSurface.cs" />
+    <Compile Include="SDL\Sdl.cs" />
+    <Compile Include="SDL\Sdl_gfx.cs" />
+    <Compile Include="SDL\Sdl_image.cs" />
+    <Compile Include="SDL\Sdl_mixer.cs" />
+    <Compile Include="SDL\Sdl_net.cs" />
+    <Compile Include="SDL\Sdl_ttf.cs" />
+    <Compile Include="SDL\Smpeg.cs" />
     <Compile Include="Windows\SurfaceControl.cs">
       <SubType>Component</SubType>
     </Compile>
