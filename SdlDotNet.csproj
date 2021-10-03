@@ -7,5 +7,10 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
+  
+    <ItemGroup>
+    <EmbeddedResource Include="Windows\SurfaceControl.bmp" />
+    <EmbeddedResource Include="Graphics\Transparent.png" />
+  </ItemGroup>
 
 </Project>
